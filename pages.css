@@ -1,0 +1,15 @@
+main > section {
+	display: none;
+}
+
+main > section:target {
+	display: block;
+}
+
+main > section:last-child {
+	display: block;
+}
+
+main > section:target ~ section:last-child {
+	display: none;
+}
